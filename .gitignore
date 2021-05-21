@@ -1,0 +1,8 @@
+#Files of IntelliJ IDEA
+.idea/*
+colombia-flag-threads.iml
+
+#Files of Eclipse IDE
+.settings/*
+.classpath
+.project
