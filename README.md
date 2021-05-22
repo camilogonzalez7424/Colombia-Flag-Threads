@@ -5,7 +5,7 @@
 ## <b> _Documentation_ </b> 📄
 
 
-- **¡Here Link!: [Documentation](https://github.com/danieljaraba/jfx-pokemon/blob/master/docs/Campaz-Gonz%C3%A1lez-Jaraba-Ricardo.pdf)**
+- **¡Here Link!: [Documentation](https://github.com/camilogonzalez7424/Colombia-Flag-Threads/blob/master/docs/Class_Diagram.pdf)**
 
 
 ## <b> _Overview_ </b>
