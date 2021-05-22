@@ -13,20 +13,20 @@ public class ColombiaFlag {
     private int sleep;
     private int large;
     private int position;
-    private BufferedWriter bw;
+    private BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
     public ColombiaFlag(int color, int sleep, int position, int large){
         this.color = color;
         this.sleep = sleep;
         this.position = position;
         this.large = large;
-        bw = new BufferedWriter(new OutputStreamWriter(System.out));
     }
 
     public void initialize() throws IOException, InterruptedException {
         bw.write(ESC+position+";"+0+"f");
 
-        while (height<100){
+        //Si se quiere una bandera más grande aumentar height a 200.
+        for(int j = 0; j < height && height<100; j++ ){
             for(int i = 0; i < large; i++){
                 bw.write(ESC+color+"m"+space);
                 bw.flush();
